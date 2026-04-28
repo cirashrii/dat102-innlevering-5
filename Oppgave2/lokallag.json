@@ -1,0 +1,88 @@
+{
+  "lokallag": {
+    "lagnavn": "Oslo Lokallag",
+    "møtelokale": {
+      "navn" : "Oslo",
+      "adresse" : "1"
+    },
+    "leder" : {
+      "navn" : {
+        "fornavn": "Lisa",
+        "etternavn": "Hansen"
+      }
+    },
+    "medlemmer" : [
+      {
+        "medlemsnummer": "1",
+        "navn" : {
+          "fornavn": "Ola",
+          "etternavn": "Nordmann"
+        },
+        "kontaktinformasjon" : {
+          "telefon": "12345678",
+          "epost": "olanordmann@example.com"
+        },
+        "adresse": {
+          "gateadresse": "Adresse 1",
+          "postnummer": "1234",
+          "poststed": "Poststed 1"
+        },
+        "status": "Aktiv",
+        "medlemsavgift": [
+          {
+            "år": 2024,
+            "betalt": "Ja",
+            "betalingsdato": "2024-01-15"
+          }
+        ]
+      },
+      {
+        "medlemsnummer": "2",
+        "navn" : {
+          "fornavn": "Nils",
+          "etternavn": "Pettersen"
+        },
+        "kontaktinformasjon" : {
+          "telefon": "81549300",
+          "epost": "nils.pettersen@example.com"
+        },
+        "adresse": {
+          "gateadresse": "Adresse 2",
+          "postnummer": "1234",
+          "poststed": "Poststed 2"
+        },
+        "status": "Aktiv",
+        "medlemsavgift": [
+          {
+            "år": 2024,
+            "betalt": "Nei"
+          }
+        ]
+      },
+      {
+        "medlemsnummer" : "3",
+        "navn" : {
+          "fornavn" : "Arne Per",
+          "etternavn" : "Gjørva"
+        },
+        "kontaktinformasjon" : {
+          "telefon" : "7256893",
+          "epost" : "arne.gjorva@example.com"
+        },
+        "adresse" : {
+          "gateadresse" : "Gjørva 3",
+          "postnummer" : "1235",
+          "poststed" : "Poststed 3"
+        },
+        "status" : "Inaktiv",
+        "medlemsavgift" : [
+          {
+            "år" : 2024,
+            "betalt" : "Nei"
+          }
+        ]
+      }
+    ]
+  }
+}
+
