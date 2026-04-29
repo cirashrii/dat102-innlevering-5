@@ -16,10 +16,10 @@ public class Main {
             numbers[i] = random.nextInt(20);
         }
 
-        //sorterVedInnsetting(numbers, 5);
+        sorterVedInnsetting(numbers, 5);
         //utvalgssortering(numbers, 5);
-        Haug test = new Haug(numbers);
-        test.toString();
+//        Haug test = new Haug(numbers);
+//        test.toString();
 
 
     }
